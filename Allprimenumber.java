@@ -1,0 +1,76 @@
+// All Prime Numbers
+// Send Feedback
+// Given an integer N, print all the prime numbers that lie in the range 2 to N (both inclusive).
+// Print the prime numbers in different lines.
+// Input Format :
+// Integer N
+// Output Format :
+// Prime numbers in different lines
+// Constraints :
+// 1 <= N <= 100
+// Sample Input 1:
+// 9
+// Sample Output 1:
+// 2
+// 3
+// 5
+// 7
+// Sample Input 2:
+// 20
+// Sample Output 2:
+// 2
+// 3
+// 5
+// 7
+// 11
+// 13
+// 17
+// 19
+
+
+// ___________________________________________________________________________________________________________________________________________________
+import java.util.*;
+class Solution {
+
+	public static void main(String[] args) {
+		
+		/* Your class should be named Solution.
+	 	* Read input as specified in the question.
+	 	* Print output as specified in the question.
+		*/
+
+		
+		
+         Scanner sc =new Scanner(System.in); 
+      
+        int a= sc.nextInt();
+        int count=0;
+
+		if(a>=2){
+			System.out.println(2);
+		}
+        
+    	  for (int i =3 ;i<=a;i+=2){
+    		 for(int j =2;j<i;) {
+				 	if (i % j == 0) {
+						count++;
+						break;
+
+					}
+				 if(j==2){
+					 j++;
+				 }
+				 else{j+=2;}
+
+    			 
+    		 }		 
+
+if(count==0   )
+{System.out.println(i);}
+count =0;		 
+ 
+    		  }
+    	
+    	  
+    	  }
+      }
