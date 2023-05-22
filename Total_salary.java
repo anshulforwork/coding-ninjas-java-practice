@@ -45,9 +45,9 @@ public class Total_salary {
 	
 	public static void main(String[] args) {
 		// Write your code here
-Scanner sc = new Scanner(System.in);
-		int basic = sc.nextInt();
-		String s =sc.next();
+Scanner sl = new Scanner(System.in);
+		int basic = sl.nextInt();
+		String s =sl.next();
 		char grade = s.charAt(0);
 		float hra,da,allow,pf;
 		hra =(float)(basic*20)/100;
