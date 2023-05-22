@@ -31,17 +31,17 @@ public class Sum_of_even_odd {
 
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int sume = 0, sumo = 0;
+		int sume = 0, sum = 0;
 		while (n != 0) {
 			int a = n % 10;
 			if (a % 2 == 0) {
 				sume = sume + a;
 			} else {
-				sumo = sumo + a;
+				sum = sum + a;
 			}
 			n = n / 10;
 		}
-		System.out.println(sume + " " + sumo);
+		System.out.println(sume + " " + sum);
 	}
 
 }
