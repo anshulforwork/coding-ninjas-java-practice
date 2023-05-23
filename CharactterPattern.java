@@ -43,6 +43,7 @@ public class CharactterPattern {
 	 	* Read input as specified in the question.
 	 	* Print output as specified in the question.
 		*/
+		
     Scanner sc = new Scanner(System.in);
 	int n = sc.nextInt();
 	for(int i = 1;i<=n;i++){
