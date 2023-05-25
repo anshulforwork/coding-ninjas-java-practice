@@ -30,6 +30,7 @@ public class Find_character_case {
     
     public static void main(String[] args) {
         // Write your code here
+        
 Scanner s = new Scanner(System.in);
 char ch = s.next().charAt(0);
 if(ch<='z'&&ch>='a'){
