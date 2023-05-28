@@ -4,6 +4,7 @@
 // Note : There are no spaces between the characters in a single line.
 
 
+
 // Input Format :
 // A single integer: N
 // Output Format :
